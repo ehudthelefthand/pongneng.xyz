@@ -14,7 +14,7 @@ const Layout = ({ children }: LayoutProps) => {
     const pageName = route === "" ? "Blog" : route
 
     return (
-        <div className="max-w-xl mx-auto mt-24 font-body">
+        <div className="max-w-xl mx-auto sm:mt-24 font-body px-4">
             <div className="my-4">
                 <Image
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-white"
