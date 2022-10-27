@@ -1,5 +1,16 @@
+import Head from "next/head"
+
 const AboutPage = () => {
-    return <h1>About us</h1>
+    return (
+        <>
+            <Head>
+                <title>Pongneng&apos;s Website - About</title>
+                <meta name="description" content="Pongneng's Website" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <p>ผมชื่อโป๊งเหน่งครับ เป็นโปรแกรมเมอร์ธรรมดา</p>
+        </>
+    )
 }
 
 export default AboutPage

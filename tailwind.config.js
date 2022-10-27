@@ -5,7 +5,13 @@ module.exports = {
         "./components/**/*.{js,ts,jsx,tsx}"
     ],
     theme: {
-        extend: {}
+        extend: {
+            fontFamily: {
+                title: ["Raleway", "sans-serif"],
+                body: ["Maitree", "serif"],
+                caption: ["Raleway", "sans-serif"]
+            }
+        }
     },
     plugins: []
 }
